@@ -11,7 +11,7 @@ public class Main {
         Tigra tigra1 = new Tigra("Tigra", 10, new Food("Sandwich with omega D3", 1500), Bag.PACKET, 10, 140);
         tigra1.welcome();
         tigra1.walking();
-        tigra1.compare(ru1);
+        tigra1.comp(ru1);
         tigra1.compareByHash(ru1);
 
         System.out.println();

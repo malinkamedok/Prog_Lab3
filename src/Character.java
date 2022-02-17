@@ -25,7 +25,7 @@ public abstract class Character {
         return age == c.age && height == c.height;
     }
 
-    void compare(Character c) {
+    void comp(Character c) {
         if (this.equals(c)) {
             System.out.println("\n" + "Персонажи выше равны друг другу по росту и возрасту");
         } else System.out.println("\n" + "Персонажи выше не равны друг другу по росту и возрасту");
@@ -47,7 +47,7 @@ public abstract class Character {
     public void welcome() {
         System.out.println("Характеристика персонажа: " + "\n" +
                 "Имя: " + name + "\n" +
-                "Восзраст: " + age + "\n" +
+                "Возраст: " + age + "\n" +
                 "Еда: " + food.getFoodName() + "\n" +
                 "Сумка: " + bag.name() + "\n" +
                 "Рост, см: " + height);
