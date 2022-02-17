@@ -20,4 +20,6 @@ public class Ru extends Character implements Walking{
         System.out.println("\n" + "Поведение:");
         System.out.println("Идет славно проводить время в лесу");
     }
+
+
 }
